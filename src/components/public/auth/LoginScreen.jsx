@@ -23,12 +23,12 @@ export const LoginScreen = () => {
 
 
                                    <input
+                                        autoComplete='off'
                                         className={formItem}
                                         type='text'
                                         placeholder='Email'
                                         name='email'
                                         onChange={'handleInputChange'}
-                                        value={''}
                                    />
 
                                    <input
@@ -37,7 +37,6 @@ export const LoginScreen = () => {
                                         placeholder='Contraseña'
                                         name='password'
                                         onChange={'handleInputChange'}
-                                        value={''}
                                    />
 
 

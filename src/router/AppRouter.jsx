@@ -6,7 +6,7 @@ export const AppRouter = () => {
                <Routes>
                     <Route path='/auth/*' element={<PublicRoutes />} />
 
-                    {/* <Route path='/*' element={<PrivateRoutes />} /> */}
+                    <Route path='/*' element={<PublicRoutes />} />
                </Routes>
           </BrowserRouter>
      )

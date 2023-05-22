@@ -27,7 +27,6 @@ export const SignInScreen = () => {
                                         placeholder='Nombre'
                                         name='name'
                                         onChange={'handleInputChange'}
-                                        value={''}
                                    />
 
                                    <input
@@ -36,7 +35,6 @@ export const SignInScreen = () => {
                                         placeholder='Email'
                                         name='email'
                                         onChange={'handleInputChange'}
-                                        value={''}
                                    />
 
                                    <input
@@ -45,7 +43,6 @@ export const SignInScreen = () => {
                                         placeholder='Contraseña'
                                         name='password'
                                         onChange={'handleInputChange'}
-                                        value={''}
                                    />
 
                                    <input
@@ -54,7 +51,6 @@ export const SignInScreen = () => {
                                         placeholder='Repetir Contraseña'
                                         name='password2'
                                         onChange={'handleInputChange'}
-                                        value={''}
                                    />
 
                                    <button

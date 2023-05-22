@@ -12,6 +12,10 @@ export const PublicRoutes = () => {
                     <Route path='home' element={<HomeScreen />} />
                     <Route path='login' element={<LoginScreen />} />
                     <Route path='signin' element={<SignInScreen />} />
+
+                    <Route path='/*' element={<HomeScreen />} />
+
+
                </Routes>
           </>
      )
