@@ -1,0 +1,99 @@
+.SignUpScreen {
+     margin-top: var(--navbar-height);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: var(--primary-color);
+     min-height: 91vh;
+}
+
+.SignUpScreen .formContainer {
+     background-color: var(--primary-color);
+     display: flex;
+     justify-self: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.SignUpScreen .formSignup {
+     background: #fff;
+     display: flex;
+     flex-direction: column;
+     justify-self: center;
+     align-items: center;
+     padding: 10px 0;
+     margin-bottom: 10px;
+     border: 1px solid rgb(209, 209, 209);
+     border-radius: 40px;
+}
+
+
+.SignUpScreen .formLogo {
+     font-size: 48px;
+     margin: 22px 0 12px 0;
+}
+
+.SignUpScreen .form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 30px;
+}
+
+.SignUpScreen .formItem {
+     margin-bottom: 10px;
+     padding: 10px;
+     width: 258px;
+     margin: 3px 40px;
+     outline: none;
+     border-radius: var(--border-radius-input-forms);
+}
+
+.SignUpScreen input {
+     border: 1px solid rgb(209, 209, 209);
+     background-color: #f6f5f5;
+}
+
+.SignUpScreen .form input:focus {
+     border: 1px solid rgb(148, 146, 146);
+}
+
+.SignUpScreen .form button {
+     margin-top: 10px;
+     background-color: var(--primary-strong);
+     border: none;
+     color: #fff;
+}
+
+
+.SignUpScreen .form button:hover {
+     background: var(--primary-hover-btn);
+}
+
+.SignUpScreen .form p {
+     font-size: 13px;
+     text-align: center;
+     color: var(--black);
+}
+
+.SignUpScreen .haveAcc {
+     color: var(--black);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     width: 100%;
+     height: 100%;
+     background: #fff;
+     border: 1px solid rgb(209, 209, 209);
+     border-radius: 40px;
+}
+
+.SignUpScreen .haveAcc a {
+     text-decoration: none;
+     color: var(--violet-link);
+     font-weight: 600;
+     margin: 0 5px;
+     cursor: pointer;
+}
