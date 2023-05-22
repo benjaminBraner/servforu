@@ -9,6 +9,11 @@ import {
 } from '../../../scss/components/public/auth/_SignInScreen.module.scss';
 
 export const SignInScreen = () => {
+
+     const formSubmit = (e) => {
+          e.preventDefault();
+          alert("click btn");
+     }
      return (
           <>
                <div className={SignUpScreen}>
@@ -19,7 +24,7 @@ export const SignInScreen = () => {
                                    ServForU
                               </h2>
 
-                              <form className={form} onSubmit={'formSubmit'}>
+                              <form className={form} onSubmit={formSubmit}>
 
                                    <input
                                         className={formItem}
