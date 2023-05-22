@@ -1,5 +1,5 @@
 
-import { header, navbar, navMenu, logoMenu, active } from '../../../scss/components/public/home/_Navbar.module.scss'
+import { header, navbar, navMenu, logoMenu, active, navLink } from '../../../scss/components/public/home/_Navbar.module.scss'
 import menuLogo from '../../../images/icons/menu.svg'
 import 'animate.css/animate.min.css'
 import { NavLink } from 'react-router-dom'
@@ -22,6 +22,7 @@ export const Navbar = () => {
                                    to='home'
                                    exact='true'
                                    onClick={clickMenuIcon}
+                                   className={navLink}
                               >
                                    Home
                               </NavLink>
@@ -32,6 +33,7 @@ export const Navbar = () => {
                                    to='home'
                                    exact='true'
                                    onClick={clickMenuIcon}
+                                   className={navLink}
                               >
                                    Sobre Nosotros
                               </NavLink>
@@ -42,6 +44,7 @@ export const Navbar = () => {
                                    to='login'
                                    exact='true'
                                    onClick={clickMenuIcon}
+                                   className={navLink}
                               >
                                    Ingresar
                               </NavLink>
@@ -52,6 +55,7 @@ export const Navbar = () => {
                                    to='signin'
                                    exact='true'
                                    onClick={clickMenuIcon}
+                                   className={navLink}
                               >
                                    Crear Cuenta
                               </NavLink>

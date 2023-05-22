@@ -24,9 +24,8 @@
 }
 
 
-
 a:visited {
-     color: inherit;
+     color: #000;
 }
 
 .navMenu {
@@ -83,7 +82,6 @@ a:visited {
           all: unset;
           display: flex;
           gap: 50px;
-          // background-color: red;
           justify-content: center;
           align-items: center;
 
@@ -96,8 +94,11 @@ a:visited {
                     display: none;
                }
 
-               a {
+               a {}
+
+               .navLink {
                     font-size: 20px;
+                    color: #fff;
                }
           }
 
