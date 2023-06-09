@@ -1,7 +1,9 @@
 .sobreNosotrosSection {
      min-height: calc(100vh - var(--navbar-height));
      width: 100%;
+     scroll-margin-top: 70px;
 }
+
 
 .resetColorSection {
      background-color: transparent;

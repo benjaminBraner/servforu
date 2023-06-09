@@ -4,9 +4,8 @@ export const AppRouter = () => {
      return (
           <BrowserRouter>
                <Routes>
-                    <Route path='/auth/*' element={<PublicRoutes />} />
-
                     <Route path='/*' element={<PublicRoutes />} />
+
                </Routes>
           </BrowserRouter>
      )

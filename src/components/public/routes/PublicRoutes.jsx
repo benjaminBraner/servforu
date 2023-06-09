@@ -1,17 +1,24 @@
 import { HomeScreen } from '../home/HomeScreen'
 import { Routes, Route } from 'react-router-dom'
 import { Navbar } from '../home/Navbar'
-import { LoginScreen } from '../auth/LoginScreen'
-import { SignInScreen } from '../auth/SignInScreen'
+import { Services } from '../Services'
+import { ContactForm } from '../ContactForm'
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 export const PublicRoutes = () => {
+     const location = useLocation();
+
+     useEffect(() => {
+          window.scrollTo(0, 0);
+     }, [location]);
      return (
           <>
                <Navbar />
                <Routes>
                     <Route path='home' element={<HomeScreen />} />
-                    <Route path='login' element={<LoginScreen />} />
-                    <Route path='signin' element={<SignInScreen />} />
+                    <Route path='services' element={<Services />} />
+                    <Route path='contact' element={<ContactForm />} />
 
                     <Route path='/*' element={<HomeScreen />} />
 

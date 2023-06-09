@@ -24,7 +24,12 @@
 }
 
 
-a:visited {
+
+// a:visited {
+//      color: #000;
+// }
+
+.navLink {
      color: #000;
 }
 
@@ -94,7 +99,6 @@ a:visited {
                     display: none;
                }
 
-               a {}
 
                .navLink {
                     font-size: 20px;

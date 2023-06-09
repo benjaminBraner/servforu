@@ -29,37 +29,44 @@ export const Navbar = () => {
                               <p>Ir a la pagina principal</p>
                          </li>
                          <li>
-                              <NavLink
-                                   to='home'
+                              {/* <NavLink
+                                   to='#sobre-nosotros'
                                    exact='true'
                                    onClick={clickMenuIcon}
                                    className={navLink}
                               >
                                    Sobre Nosotros
-                              </NavLink>
+                              </NavLink> */}
+                              <a
+                                   href="/#sobre-nosotros"
+                                   onClick={clickMenuIcon}
+                                   className={navLink}
+                              >
+                                   Sobre Nosotros
+                              </a>
                               <p>Descubre quienes somos</p>
                          </li>
                          <li>
                               <NavLink
-                                   to='login'
+                                   to='services'
                                    exact='true'
                                    onClick={clickMenuIcon}
                                    className={navLink}
                               >
-                                   Ingresar
+                                   Servicios
                               </NavLink>
-                              <p>Tienes cuenta? genial! Ingresa ya</p>
+                              <p>Mira lo que tenemos para ofrecer</p>
                          </li>
                          <li>
                               <NavLink
-                                   to='signin'
+                                   to='contact'
                                    exact='true'
                                    onClick={clickMenuIcon}
                                    className={navLink}
                               >
-                                   Crear Cuenta
+                                   Contactanos
                               </NavLink>
-                              <p>No tienes cuenta? no lo pienses</p>
+                              <p>No te pierdas esta oportunidad</p>
                          </li>
                     </ul>
 

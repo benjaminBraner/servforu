@@ -15,17 +15,18 @@ import { SobreNosotros } from './SobreNosotros';
 import { Footer } from './Footer';
 import { useNavigate } from 'react-router-dom';
 
+
 export const HomeMain = () => {
      const navigate = useNavigate();
-     const [text, setText] = useState("Compra");
+     const [text, setText] = useState("Innova");
      const [count, setCount] = useState(0);
 
      useEffect(() => {
           const intervalId = setInterval(() => {
                setText(prevText => {
-                    if (prevText === 'Compra') return 'Vende';
-                    else if (prevText === 'Vende') return 'Conecta'
-                    else if (prevText === 'Conecta') return prevText
+                    if (prevText === 'Innova') return 'Vende';
+                    else if (prevText === 'Vende') return 'Destaca'
+                    else if (prevText === 'Destaca') return prevText
                })
           }, 1500);
 
@@ -49,15 +50,15 @@ export const HomeMain = () => {
                                    >
                                         {text}
                                    </span><br />
-                                   con personas<br />
-                                   de todo el pais
+                                   con tu negocio<br />
+                                   digitalizado
                               </h1>
-                              {/* <p className={pExplain}>
-                                   ServForU es una plataforma de compra/venta de productos, tanto como
-                                   plataforma de servicios en Bolivia
-                              </p> */}
-                              <button className={buttonHero} onClick={() => navigate('/auth/signin')}>
-                                   <p>Comienza ya</p></button>
+                              <p className={pExplain}>
+                                   ServForU es una plataforma para contratar el servicio de hacer tu website
+                                   ya sea personal o para tu negocio  ;)
+                              </p>
+                              <button className={buttonHero} onClick={() => navigate('/contact')}>
+                                   <p>Contactanos</p></button>
                          </div>
 
                          <div className={imgContainer}>
@@ -68,6 +69,7 @@ export const HomeMain = () => {
                     </div>
                </div>
                <SobreNosotros />
+
                <Footer />
           </main >
      )

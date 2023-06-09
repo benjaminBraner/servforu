@@ -1,0 +1,120 @@
+.servicios {
+     background-color: #b6dbd0;
+     // height: 100vh;
+     margin-top: var(--navbar-height);
+     padding: 15px;
+     padding-top: 0;
+
+     .presentation {
+          margin-top: 70px;
+          height: calc(100vh - 70px);
+          min-height: 500px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          // background-color: red;
+     }
+
+     span {
+          color: #19624c;
+     }
+
+     p {
+          font-size: 35px;
+          font-weight: 500;
+     }
+
+     img {
+          width: 100%;
+     }
+}
+
+.servicios>div {
+     max-width: 1200px;
+     margin: auto;
+}
+
+.buttonHero {
+     min-height: 64px;
+     color: #fff;
+     cursor: pointer;
+     background-color: #19624c;
+     border-radius: 999px;
+     align-items: center;
+     margin-top: 20px;
+     margin-bottom: 40px;
+     margin-left: 0;
+     padding: 0 40px;
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 64px;
+     display: flex;
+     width: fit-content;
+     position: relative;
+     overflow: hidden;
+
+     p {
+          position: relative;
+          z-index: 2;
+     }
+}
+
+.buttonHero:after {
+     position: absolute;
+     content: "";
+     top: 0;
+     left: 0;
+     width: 0;
+     height: 100%;
+     border-radius: 999px;
+     transition: all 0.35s;
+     background-color: #000
+}
+
+.buttonHero:hover::after {
+     // position: relative;
+     border-radius: 999px;
+     width: 100%;
+     transition: all 0.35s;
+}
+
+.boxContainer {
+     margin-bottom: 230px;
+     display: grid;
+     grid-template-columns: auto;
+     gap: 50px;
+     justify-items: center;
+     align-items: center;
+}
+
+.sobreNosotrosItem {
+     padding: 37px;
+     gap: 20px;
+     display: flex;
+     flex-direction: column;
+     border-radius: 40px;
+     background-color: #207d61;
+     color: aliceblue;
+     text-align: center;
+
+     h3 {
+          margin-top: 20px;
+          color: #000;
+          font-size: 40px;
+     }
+
+     p {
+          line-height: 2;
+          font-size: 18px;
+     }
+}
+
+//tablet size
+@media screen and (min-width:768px) {
+     .boxContainer {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+     }
+}

@@ -13,6 +13,7 @@
 .hero {
      min-height: calc(100vh - var(--navbar-height));
      margin-bottom: 90px;
+     // margin-top: var(--navbar-height);
      display: grid;
      align-items: center;
 }
@@ -142,6 +143,9 @@ span {
 @media screen and (min-width:1024px) {
      .mainContainer {
           display: grid;
+          align-items: center;
+          justify-items: center;
+          height: 100vh;
           grid-template-columns: 1fr 1fr;
      }
 
@@ -151,6 +155,6 @@ span {
 
      .titulo {
           text-align: left;
-          font-size: 70px;
+          font-size: 60px;
      }
 }
