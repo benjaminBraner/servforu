@@ -18,17 +18,17 @@ export const ContactForm = () => {
                     <form action="https://formsubmit.co/benjamin.branner@gmail.com" className={form} method='POST'>
                          <div className={inputBox}>
                               <label>Nombre</label>
-                              <input type="text" name='Nombre' required />
+                              <input type="text" name='Nombre' required autoComplete="off" />
                          </div>
 
                          <div className={inputBox}>
                               <label>Email</label>
-                              <input type="text" name='Email' required />
+                              <input type="text" name='Email' required autoComplete="off" />
                          </div>
 
                          <div className={inputBox}>
                               <label>Mensaje</label><br />
-                              <textarea rows={5} name='Mensaje' required />
+                              <textarea rows={5} name='Mensaje' required autoComplete="off" />
 
                          </div>
                          <input type="hidden" name="_next" value="https://servforu.netlify.app/" />
