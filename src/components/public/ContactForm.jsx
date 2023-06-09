@@ -3,7 +3,7 @@ import {
      container,
      form,
      inputBox,
-     presentation
+     presentation,
 } from '../../scss/components/public/_ContactForm.module.scss'
 import { Footer } from './home/Footer'
 export const ContactForm = () => {
@@ -14,6 +14,8 @@ export const ContactForm = () => {
                          <p><span>Contactanos.</span><br />
                               Cuentanos mas sobre tu negocio
                          </p>
+                         <p>Haremos un plan personalizado que se adapte a tus necesidades<br />
+                              y a las de tu negocio</p>
                     </div>
                     <form action="https://formsubmit.co/benjamin.branner@gmail.com" className={form} method='POST'>
                          <div className={inputBox}>
