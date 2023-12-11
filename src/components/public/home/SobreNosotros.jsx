@@ -42,7 +42,7 @@ export const SobreNosotros = () => {
                          <div className={itemContent}>
                               <h3>¿Quienes Somos?</h3>
                               <p>
-                                   ServForU, es una idea ambiciosa que nacio de 5 amigos universitarios (Daniel, Benjamin, Jose Maria, Fabian y Sergio), con ganas de mejorar el mercado y ayudar a los emprendedores pequeños, medianos o grandes, a digitalizar su marca y dejar un impacto en la sociedad
+                                   ServForU, es una idea ambiciosa que nacio de 4 amigos universitarios (Julio, Jose Maria, Fabian y Benjamin), con ganas de mejorar el mercado y ayudar a los emprendedores pequeños, medianos o grandes, a digitalizar su marca y dejar un impacto en la sociedad
                               </p>
 
                          </div>
@@ -51,7 +51,6 @@ export const SobreNosotros = () => {
                     <div className={sobreNosotrosItem}>
                          <h3>¿Que te espera?</h3>
                          <p>
-                              {/* En ServForU, encontrarás un mercado vibrante y dinámico donde puedes comprar una amplia variedad de productos de calidad. Ya sea que busques artículos nuevos, usados o incluso personalizados, nuestra plataforma te conectará con vendedores confiables y profesionales que ofrecen productos de primera categoría. */}
                               En ServForU encontraras sitios web profesionales, atractivos y personalizados para hacer crecer tu negocio. Impulsa tu presencia en línea y alcanza el éxito con nuestra plataforma de creación de sitios web. ¡Potencia tu marca y conviértete en un referente en la web!
                          </p>
                          <div className={iconsContainer}>
