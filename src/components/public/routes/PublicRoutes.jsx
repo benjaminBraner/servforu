@@ -5,7 +5,6 @@ import { Services } from '../Services'
 import { ContactForm } from '../ContactForm'
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { DevsInfo } from '../home/DevsInfo'
 export const PublicRoutes = () => {
      const location = useLocation();
 
@@ -19,7 +18,6 @@ export const PublicRoutes = () => {
                     <Route path='home' element={<HomeScreen />} />
                     <Route path='services' element={<Services />} />
                     <Route path='contact' element={<ContactForm />} />
-                    <Route path='devs' element={<DevsInfo />} />
 
                     <Route path='/*' element={<HomeScreen />} />
 

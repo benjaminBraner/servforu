@@ -59,28 +59,6 @@ export const Navbar = () => {
                          </li>
                          <li>
                               <NavLink
-                                   to='https://servforu-english.netlify.app'
-                                   exact='true'
-                                   // onClick={clickMenuIcon}
-                                   className={navLink}
-                              >
-                                   English
-                              </NavLink>
-                              <p>Visit servforu website in our english version</p>
-                         </li>
-                         <li>
-                              <NavLink
-                                   to='devs'
-                                   exact='true'
-                                   onClick={clickMenuIcon}
-                                   className={navLink}
-                              >
-                                   Desarrolladores
-                              </NavLink>
-                              <p>Informacion sobre los fundadores de ServForU</p>
-                         </li>
-                         <li>
-                              <NavLink
                                    to='contact'
                                    exact='true'
                                    onClick={clickMenuIcon}
